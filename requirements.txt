@@ -1,3 +1,4 @@
 plotly
 folium
 haversine
+streamlit_folium
