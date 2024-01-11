@@ -10,8 +10,10 @@
 #root > div:nth-child(1) > div > div > a > div {
     display: none;
 }
-footer {visibility: hidden;} 
 
+.viewerBadge_container__r5tak {
+    display: none;
+}
 img {
     border-radius: 50%;
 }
