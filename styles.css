@@ -6,6 +6,11 @@
 #root > div:nth-child(1) > div > div > a {
     display: none;
 }
+
+#root > div:nth-child(1) > div > div > a > div {
+    display: none;
+}
+
 img {
     border-radius: 50%;
 }
