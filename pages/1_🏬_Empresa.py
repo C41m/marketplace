@@ -7,7 +7,6 @@ import streamlit as st
 import locale
 
 
-locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 diretorio_dados = 'dados/train.csv'
 df1 = etl_funcao(diretorio_dados)
 
