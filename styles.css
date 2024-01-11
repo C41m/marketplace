@@ -10,6 +10,7 @@
 #root > div:nth-child(1) > div > div > a > div {
     display: none;
 }
+footer {visibility: hidden;} 
 
 img {
     border-radius: 50%;
