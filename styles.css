@@ -3,9 +3,14 @@
 
 }
 
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+
+
 #root > div:nth-child(1) > div > div > a {
     display: none;
 }
+
 
 #root > div:nth-child(1) > div > div > a > div {
     display: none;
