@@ -1,7 +1,4 @@
-import plotly.express as px
-import folium
 import pandas as pd
-import numpy as np
 
 def idade_func(df1):
     df_aux_max = df1.loc[:, 'Delivery_person_Age'].max()

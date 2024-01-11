@@ -3,10 +3,7 @@ from analise import  date_filter_func, traffic_options_func
 from analise_entregadores import idade_func, condicao_veiculo_func, med_ent_func, med_desv_tra_func, med_desv_cli_func, ent_mais_rap_func, df_ent_mais_len_func
 from datetime import datetime
 from streamlit_folium import folium_static
-import folium
 import streamlit as st
-import plotly.graph_objects as go
-import plotly.express as px
 import locale
 
 locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')

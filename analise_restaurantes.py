@@ -1,6 +1,4 @@
 import plotly.express as px
-import folium
-import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 

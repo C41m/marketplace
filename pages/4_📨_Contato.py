@@ -1,6 +1,7 @@
 import streamlit as st
 import re
 from config import contact_func
+
 def is_email_valid(email):
      return bool(re.match(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', email))
 
